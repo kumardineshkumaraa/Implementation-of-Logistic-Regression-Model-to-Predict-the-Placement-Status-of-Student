@@ -31,7 +31,7 @@ STEP 9 : End
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: Dinesh Kumaraa K
-RegisterNumber:  212222220023
+RegisterNumber:  212222220012
 */
 
 import pandas  as pd
