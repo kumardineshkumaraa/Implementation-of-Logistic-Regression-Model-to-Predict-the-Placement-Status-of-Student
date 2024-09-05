@@ -8,17 +8,30 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+STEP 1 : Start
+
+STEP 2 : Import and Load Data: Load the student placement dataset using pandas.
+
+STEP 3 : Preprocess Data: Copy the dataset, then drop irrelevant columns like "sl_no" and "salary" to prepare for training.
+
+STEP 4 : Check Data Integrity: Check for missing values and duplicated rows in the cleaned dataset.
+
+STEP 5 : Define Features and Labels: Separate the independent variables (features) and the dependent variable (target) 'status'.
+
+STEP 6 : Split the Data: Split the dataset into training and testing sets using an 80/20 ratio.
+
+STEP 7 : Train the Model: Initialize and train a Logistic Regression model on the training data.
+
+STEP 8 : Evaluate the Model: Predict using the test data, calculate accuracy, generate the classification report, and test with new input.
+
+STEP 9 : End
 
 ## Program:
 ```
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: 
-RegisterNumber:  
+Developed by: Dinesh Kumaraa K
+RegisterNumber:  212222220023
 */
 
 import pandas  as pd
@@ -60,8 +73,13 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
+Accuracy
 
+![364743034-d430928d-0a69-4990-b78f-773f6134af2b](https://github.com/user-attachments/assets/cca9e9dd-7364-4962-bd2a-c4ad2b5b38a6)
+
+Predicted Value
+
+![364743455-c8bb2652-de6b-44ef-9a60-ff1bccc8b3df](https://github.com/user-attachments/assets/00136ad2-21ad-4b30-be01-f83c0981524b)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
